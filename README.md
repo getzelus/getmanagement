@@ -4,7 +4,7 @@ npm start
 Front of Get Management made with React, react-router-dom, Material UI 5 and Zustand.
 Zustand is an alternative to Redux or Context for state management, very simple to use. 
 
-Backend : 
+Backend : https://github.com/getzelus/getmanagement-back
 
 The objective was to create an ERP for businesses, help them to manage datas. 
 And they can scale, customize as they want by defining new models with input fields. 
