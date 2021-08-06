@@ -1,6 +1,5 @@
 
-//const serverGlobal = 'http://localhost:8000/';
-const serverGlobal = 'https://getmanagement.herokuapp.com/';
+const serverGlobal = 'http://localhost:8000/';
 
 const settings = {
   server: serverGlobal + 'api/',
