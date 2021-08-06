@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import store from './store/store';
+import { BrowserRouter as Router} from "react-router-dom";
+import { ThemeProvider } from '@material-ui/core/styles';
+import theme from './utils/theme';
+
+
+
+import Layout from './base/Layout';
+import Loading from './base/Loading';
+import Alert from './base/Alert';
+
 
 function App() {
+
+  const initModels = store(state => state.initModels);
+  const ready = store(state => state.ready);
+
+  React.useEffect(() => {
+    initModels();
+    console.log('app use effect');
+  }, [initModels]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+      <>
+      { ready && 
+        <Router>
+          <ThemeProvider theme={theme}>
+            <Layout />
+
+            <Loading />
+            <Alert/>
+          </ThemeProvider>
+        </Router>
+     }  
+  </>);
 }
 
 export default App;
+

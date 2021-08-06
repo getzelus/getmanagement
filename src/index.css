@@ -1,3 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
+
+
+/*
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +16,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+*/
+
+/*
+.app{
+  margin-left: 40px;
+  margin-top: 40px;
+}
+*/
+
+/*
+.marginRight{
+  margin-right: 20px;
+}
+
+.marginBottom{
+  margin-bottom: 20px;
+}
+*/
+
+
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+
+
