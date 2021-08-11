@@ -9,7 +9,7 @@ Test it (wait sometime to load) : https://getmanagement.netlify.app/
 Backend : https://github.com/getzelus/getmanagement-back
 
 
-Try on your PC :  npm install     npm start 
+Try on your PC :  npm install and npm start 
 
 
 Welcome on Get Management
