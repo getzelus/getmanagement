@@ -1,13 +1,16 @@
+Front of Get Management made with React, react-router-dom, Material UI 5 and Zustand.
+Zustand is an alternative to Redux or Context for state management, very simple to use. 
+The objective was to create an ERP for businesses, help them to manage datas. 
+And they can scale, customize as they want by defining new models with input fields. 
+
+
+Test it (wait sometime to load) : https://getmanagement.netlify.app/
+Backend : https://github.com/getzelus/getmanagement-back
+
+Install on your PC : 
 npm install
 npm start 
 
-Front of Get Management made with React, react-router-dom, Material UI 5 and Zustand.
-Zustand is an alternative to Redux or Context for state management, very simple to use. 
-
-Backend : https://github.com/getzelus/getmanagement-back
-
-The objective was to create an ERP for businesses, help them to manage datas. 
-And they can scale, customize as they want by defining new models with input fields. 
 
 Welcome on Get Management
 This is a solution for businesses or individuals who want to manage their datas.
