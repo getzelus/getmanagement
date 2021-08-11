@@ -5,9 +5,11 @@ And they can scale, customize as they want by defining new models with input fie
 
 
 Test it (wait sometime to load) : https://getmanagement.netlify.app/
+
 Backend : https://github.com/getzelus/getmanagement-back
 
 Install on your PC : 
+
 npm install
 npm start 
 
